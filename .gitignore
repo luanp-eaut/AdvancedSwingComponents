@@ -1,0 +1,22 @@
+# Eclipse specific files
+/.settings/
+/bin/
+/.project
+/.classpath
+
+# Maven specific files
+/target/
+
+# Gradle specific files
+/.gradle/
+/build/
+
+# IntelliJ IDEA specific files
+/.idea/
+/*.iml
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
