@@ -37,6 +37,7 @@ public class JTableDemo {
 		table.setCellSelectionEnabled(true);
 
 		// Tạo custom renderer cho cột "Tuổi"
+		@SuppressWarnings("serial")
 		DefaultTableCellRenderer ageRenderer = new DefaultTableCellRenderer() {
 			@Override
 			public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected,
@@ -72,6 +73,7 @@ public class JTableDemo {
 
 		// Tạo custom editor cho cột "Tuổi"
 		JTextField textField = new JTextField();
+		@SuppressWarnings("serial")
 		DefaultCellEditor ageEditor = new DefaultCellEditor(textField) {
 			@Override
 			public boolean stopCellEditing() {
